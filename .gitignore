@@ -1,0 +1,16 @@
+# configurations for website passwords and logins
+.env
+
+# Data files and logs
+*.csv
+*.txt
+*.ipynb
+/log
+
+# Miscellaneous
+chromedriver
+.DS_Store
+__pycache__
+
+# Data mounted from Docker container
+/data/
